@@ -1858,9 +1858,9 @@ class CatCard {
     this.elem.classList.add('card');
     this.elem.innerHTML = `
       <div class="card__top">
-          <img src="../img/${this.img}" class="card__img" alt="photo" width="380" height="264">
+          <img src="./img/${this.img}" class="card__img" alt="photo" width="380" height="264">
           <div class="card__like">
-            <img src="../img/icon-heart.svg" class="card__heart" alt="like">
+            <img src="./img/icon-heart.svg" class="card__heart" alt="like">
           </div>
       </div>
       <div class="card__body">
