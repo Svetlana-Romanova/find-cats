@@ -1,0 +1,29 @@
+.btn {
+  display: block;
+  min-width: 380px;
+  min-height: 65px;
+  margin: 40px auto;
+  border-radius: 10px;
+  border: 1px solid $border-btn-color;
+  text-align: center;
+  font-size: 14px;
+
+  &:hover,
+  &:focus {
+    color: $second-color;
+  }
+
+  &:active {
+    opacity: 0.5;
+  }
+
+  &--form {
+    min-width: 250px;
+    min-height: 65px;
+    margin: 0;
+    background-color: $second-color;
+    color: $main-light-color;
+    font-weight: bold;
+    font-size: 14px;
+  }
+}

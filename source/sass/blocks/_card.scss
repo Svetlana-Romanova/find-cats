@@ -1,0 +1,56 @@
+.card {
+  max-width: 380px;
+  min-height: 521px;
+  background-color: $bg-card-color;
+  margin-top: 23px;
+
+  @include textCard(400, 12px, 15px);
+}
+
+.card__like {
+  position: absolute;
+}
+
+.card__body {
+  padding: 29px;
+}
+
+.card__title {
+  @include textCard(700, 24px, 29px);
+}
+
+.card__descr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 22px 0;
+  padding: 0 18px;
+  border-left: 4px solid $second-color;
+}
+
+.card__color {
+  width: 20%;
+}
+
+.card__age {
+  @include textCard(700, 24px, 29px);
+}
+
+.card__paws {
+  @include textCard(700, 24px, 29px);
+}
+
+.card__price {
+  @include textCard(700, 24px, 29px);
+}
+
+.card__btn {
+  width: 380px;
+  height: 65px;
+  background-color: $second-color;
+  border: none;
+  font-size: 16px;
+  color: $main-light-color;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
