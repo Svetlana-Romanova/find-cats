@@ -16,6 +16,7 @@
 .main-catalog__sort-price {
   padding: 0 24px;
   font-weight: normal;
+  cursor: pointer;
 
   &::after {
     content: url("../img/icon-arr-down.svg");
@@ -35,6 +36,7 @@
 .main-catalog__sort-age {
   padding: 0 25px;
   font-weight: normal;
+  cursor: pointer;
 
   &::after {
     content: url("../img/icon-arr-down.svg");

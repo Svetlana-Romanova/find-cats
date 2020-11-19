@@ -38,7 +38,7 @@ export default class CatCard {
           </div>
           <div class="card__price">${this.price}</div>
       </div>
-      <button type="button" class="card__btn">
+      <button type="button" class="btn btn--card">
         Купить
       </button>
     `;

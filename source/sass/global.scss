@@ -21,7 +21,11 @@ a {
 
   &:hover,
   &:focus {
-    text-decoration: none;
+    color: $main-dark-color;
+  }
+
+  &:active {
+    opacity: 0.5;
   }
 }
 
